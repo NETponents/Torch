@@ -22,7 +22,7 @@ if($testauthsecret = $auth_secret)
 {
   echo '<p>Click begin to start the test</p>';
   ?>
-  <form method="post" action="./verifytest.php">
+  <form method="post" action="./taketest.php">
   <input type="hidden" name="t" value="<?php echo $test_path; ?>" />
   <input type="hidden" name="n" value="<?php echo $test_name; ?>" />
   <input type="hidden" name="tq" value="<?php echo $test_numquest; ?>" />
