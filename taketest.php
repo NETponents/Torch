@@ -23,7 +23,7 @@ if($debug == true)
 ?>
 <h1><?php echo $test_name; ?></h1>
 <?php
-if($curquest > 0)
+if($test_curquest > 0)
 {
   $prevans = $_GET['a'];
   if($testdata->q[$test_curquest - 1]->c == $prevans)
