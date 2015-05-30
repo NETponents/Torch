@@ -20,18 +20,16 @@ for($i = 0; $i <= count($testslist->test); $i++)
 }
 if($testauthsecret = $auth_secret)
 {
-  echo '<p>Click begin to start the test</p>';
-  ?>
+  echo '<p>Click begin to start the test</p>
   <form method="post" action="./taketest.php">
-  <input type="hidden" name="t" value="<?php echo $test_path; ?>" />
-  <input type="hidden" name="n" value="<?php echo $test_name; ?>" />
-  <input type="hidden" name="tq" value="<?php echo $test_numquest; ?>" />
+  <input type="hidden" name="t" value="' . $test_path . '" />
+  <input type="hidden" name="n" value="' . $test_name . '" />
+  <input type="hidden" name="tq" value="' . $test_numquest . '" />
   <input type="hidden" name="q" value="0" />
   <input type="hidden" name="r" value="n" />
-  <input type="hidden" name="u" value="<?php echo $auth_usr; ?>" />
+  <input type="hidden" name="u" value="' . $auth_usr . '" />
   <input type="submit" name="submit" value="Begin test" />
-  </form>
-<?php
+  </form>';
 }
 else
 {
