@@ -44,10 +44,16 @@
     </script>
     <br />
     <h1>User information</h1>
+    <hr />
     <form method="post" action="./question.php">
       <input type="hidden" name="t" value="<?php echo $testpath; ?>" />
       <input type="hidden" name="n" value="<?php echo $testfullname; ?>" />
       <input type="hidden" name="tq" value="<?php echo $numquestions; ?>" />
+      <input type="hidden" name="q" value="0" />
+      <input type="hidden" name="r" value="n" />
+      <input type="text" name="u" />
+      <input type="submit" name="submit" value="Begin test" />
     </form>
+    <p>WARNING: Clicking on Begin test will begin the test. Please make sure you have read the testing instructions above and verifying that your browser passes the JavaScript test.</p>
   </body>
 </html>
