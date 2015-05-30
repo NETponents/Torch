@@ -12,7 +12,7 @@ $testauthsecret = '';
 $testslist = simplexml_load_file('./secure/test/tests.xml');
 for($i = 0; $i <= count($testslist->test); $i++)
 {
-  if($testslist->test[$i]->path = $testpath)
+  if($testslist->test[$i]->path = $test_path)
   {
     $testauthsecret = $testslist->test[$i]->pass;
     break;
