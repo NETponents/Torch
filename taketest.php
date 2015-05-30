@@ -22,6 +22,7 @@ if($debug == true)
 }
 ?>
 <h1><?php echo $test_name; ?></h1>
+<br />
 <?php
 if($test_curquest > 0)
 {
