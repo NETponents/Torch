@@ -8,7 +8,7 @@
   <test>
     <title>Electronics Equipment Exam I</title>
     <path>elec1</path>
-    <questions>4</questions>
+    <questions>6</questions>
     <pass>wire7</pass>
   </test>
 </tests>
