@@ -49,7 +49,7 @@ if($test_curquest > $test_numquest)
 }
 else
 {
-  echo '<h3>' . $testdata->q[$test_curquest]->quest . '</h3>';
+  echo '<h3>' . $testdata->q[(int)$test_curquest]->quest . '</h3>';
   $test_curquest++;
   echo 'Answer: 
   <form method="post" action="./taketest.php">
