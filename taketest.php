@@ -18,7 +18,7 @@ if($debug)
   echo $test_curquest . '<br />';
   echo $test_correct . '<br />';
   echo $auth_usr . '<br />';
-  echo $_GET['ans'];
+  echo $_POST['ans'];
   echo '<a href="./secure/test/' . $test_path . '/test.xml">Test datafile path</a>';
 }
 ?>
@@ -27,7 +27,7 @@ if($debug)
 <?php
 if($test_curquest > 0)
 {
-  $prevans = $_GET['ans'];
+  $prevans = $_POST['ans'];
   $g = $test_curquest - 1;
   if((string)$testdata->q[(int)$g]->c == (string)$prevans)
   {
