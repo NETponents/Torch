@@ -6,11 +6,11 @@ $test_curquest = $_POST['q'];
 $test_correct = $_POST['r'];
 $auth_usr = $_POST['u'];
 
-$debug = false;
+$debug = true;
 
 $testdata = simplexml_load_file('./secure/test/' . $test_path . '/test.xml');
 
-if($debug == true)
+if($debug)
 {
   echo $test_path . '<br />';
   echo $test_name . '<br />';
@@ -18,6 +18,7 @@ if($debug == true)
   echo $test_curquest . '<br />';
   echo $test_correct . '<br />';
   echo $auth_usr . '<br />';
+  echo $_GET['a'];
   echo '<a href="./secure/test/' . $test_path . '/test.xml">Test datafile path</a>';
 }
 ?>
