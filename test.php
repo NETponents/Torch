@@ -7,11 +7,13 @@
     $testpath = $_GET['t'];
     $testslist = simplexml_load_file('./secure/test/tests.xml');
     $testfullname = '';
+    $numquestions = 0;
     for($i = 0; $i <= count($tests->test); $i++)
       {
         if($testslist->test[$i]->path = $testpath)
         {
           $testfullname = $testslist->test[$i]->title;
+          $numquestions = $testslist->test[$i]->questions;
           break;
         }
       }
@@ -32,5 +34,20 @@
       <li>DO print out the results page for your records.</li>
       <li>DO take your time.</li>
     </ul>
+    <br />
+    <h1>Browser compatability check</h1>
+    <hr />
+    <h4>JavaScript test</h4>
+    <div id="jstest">Test failed</div>
+    <script>
+      document.getElementById("jstest").innerHTML = "Test passed";
+    </script>
+    <br />
+    <h1>User information</h1>
+    <form method="post" action="./question.php">
+      <input type="hidden" name="t" value="<?php echo $testpath; ?>" />
+      <input type="hidden" name="n" value="<?php echo $testfullname; ?>" />
+      <input type="hidden" name="tq" value="<?php echo $numquestions; ?>" />
+    </form>
   </body>
 </html>
