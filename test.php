@@ -51,7 +51,8 @@
       <input type="hidden" name="tq" value="<?php echo $numquestions; ?>" />
       <input type="hidden" name="q" value="0" />
       <input type="hidden" name="r" value="n" />
-      <input type="text" name="u" />
+      Name/ID: <input type="text" name="u" /><br /><br />
+      Secure testing code: <input type="password" name="sec"> <br /><br />
       <input type="submit" name="submit" value="Begin test" />
     </form>
     <p>WARNING: Clicking on Begin test will begin the test. Please make sure you have read the testing instructions above and verifying that your browser passes the JavaScript test.</p>
