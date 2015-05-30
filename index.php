@@ -31,7 +31,7 @@
     </nav>
     <div class="container">
       <div class="jumbotron">
-        <h1>NETponents</h1>
+        <h1>Torch Testing Software</h1>
     </div>
     <div class="row">
       <div class="col-sm-6">
