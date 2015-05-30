@@ -57,7 +57,8 @@
             foreach($tests->test as $i)
             {
               //echo '2';
-              echo '<li><a href="test.php?t=' . $tests->test[$i]->path . '">' . $tests->test[$i]->title . '</a><li>';
+              //echo '<li><a href="test.php?t=' . $tests->test[$i]->path . '">' . $tests->test[$i]->title . '</a><li>';
+              echo '<li><a href="test.php?t=' . $i->path . '">' . $i->title . '</a><li>';
             }
           //}
           ?>
