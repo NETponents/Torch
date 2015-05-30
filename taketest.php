@@ -22,7 +22,7 @@ if($debug)
   echo '<a href="./secure/test/' . $test_path . '/test.xml">Test datafile path</a>';
 }
 ?>
-<h1><?php echo $auth_user; ?>: <?php echo $test_name; ?></h1>
+<h1><?php echo $auth_usr; ?>: <?php echo $test_name; ?></h1>
 <hr />
 <?php
 if($test_curquest > 0)
@@ -53,8 +53,8 @@ if($test_curquest > $test_numquest)
 else
 {
   //echo '<h3>' . $testdata->q[(int)$test_curquest]->quest . '</h3>';
-  //echo '<h3>' . str_replace("#","<br>",$testdata->q[(int)$test_curquest]->quest) . '</h3>';
-  echo '<h3>' . str_replace("#","  ",$testdata->q[(int)$test_curquest]->quest) . '</h3>';
+  echo '<h3>' . str_replace("#","<br>",$testdata->q[(int)$test_curquest]->quest) . '</h3>';
+  //echo '<h3>' . str_replace("#","  ",$testdata->q[(int)$test_curquest]->quest) . '</h3>';
   $test_curquest++;
   echo 'Answer: 
   <form method="post" action="./taketest.php">
