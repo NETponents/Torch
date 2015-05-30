@@ -23,7 +23,7 @@ if($debug)
 }
 ?>
 <h1><?php echo $test_name; ?></h1>
-<br />
+<hr />
 <?php
 if($test_curquest > 0)
 {
