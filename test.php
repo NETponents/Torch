@@ -8,7 +8,7 @@
     $testslist = simplexml_load_file('./secure/test/tests.xml');
     $testfullname = '';
     $numquestions = 0;
-    for($i = 0; $i <= count($tests->test); $i++)
+    for($i = 0; $i <= count($testslist->test); $i++)
       {
         if($testslist->test[$i]->path = $testpath)
         {
