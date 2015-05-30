@@ -1,0 +1,6 @@
+<tests>
+  <test>
+    <title>Sample Test</title>
+    <path>stest</path>
+  </test>
+</tests>
