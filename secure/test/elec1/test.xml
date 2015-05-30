@@ -32,7 +32,7 @@
     <c>3</c>
   </q>
   <q>
-    <quest>What electric component is used to store electricity for a QUICK discharge?#1. Resistor#2. Flash Memory#3. Capacitor#4. Batteries</quest>
+    <quest>What electric component is used to store electricity for a SLOW discharge?#1. Resistor#2. Flash Memory#3. Capacitor#4. Batteries</quest>
     <c>4</c>
   </q>
   <q>
@@ -40,7 +40,23 @@
     <c>4</c>
   </q>
   <q>
-    <quest>What language is used to program the Arduino?#1. Assembly#2. Objective-C#3. Swift#4. Bytecode</quest>
+    <quest>What language is most commonly used to program the Arduino?#1. Assembly#2. Objective-C#3. Swift#4. Bytecode</quest>
+    <c>2</c>
+  </q>
+  <q>
+    <quest>Arduinos can natively interface with the ProcessingJS class on Android OS?#1. true#2. false</quest>
+    <c>2</c>
+  </q>
+  <q>
+    <quest>Which of the following is NOT a data IO connection for embedded devices?#1. Tx/Rx#2. Io/In</quest>
+    <c>2</c>
+  </q>
+  <q>
+    <quest>What is battery capacity measured in?#1. Watts#2. Volts#3. MaH#4. Amps</quest>
+    <c>3</c>
+  </q>
+  <q>
+    <quest>What kind of kernel runs on an Arduino?#1. RTOS#2. MicroKernel#3. MacroKernel#4. JTAG deployed</quest>
     <c>2</c>
   </q>
 </qs>
