@@ -22,7 +22,7 @@ if($debug)
   echo '<a href="./secure/test/' . $test_path . '/test.xml">Test datafile path</a>';
 }
 ?>
-<h1><?php echo $test_name; ?></h1>
+<h1><?php echo $auth_user; ?>: <?php echo $test_name; ?></h1>
 <hr />
 <?php
 if($test_curquest > 0)
