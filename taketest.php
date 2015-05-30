@@ -34,7 +34,7 @@ if($curquest > 0)
     $test_correct = $test_correct . 'w';
   }
 }
-if(curquest > numquest)
+if($test_curquest > $test_numquest)
 {
     echo '<p>Click finish test to see results.</p>
   <form method="post" action="./results.php">
@@ -48,8 +48,8 @@ if(curquest > numquest)
 }
 else
 {
-  $curquest++;
   echo '<h3>' . $testdata->q[$curquest]->quest . '</h3>';
+  $curquest++;
   echo 'Answer: 
   <form method="post" action="./taketest.php">
   <input type="hidden" name="t" value="' . $test_path . '" />
