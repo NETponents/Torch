@@ -44,22 +44,22 @@
           <?php
           $maxtests = 5;
           $tests = simplexml_load_file('./secure/test/tests.xml');
-          if(count($tests->test) > $maxtests)
-          {
-            for($i = 0; $i <= $maxtests; $i++)
-            {
-              //echo '1';
-              echo '<li><a href="test.php?t=' . $tests->test[$i]->path . '">' . $tests->test[$i]->title . '</a><li>';
-            }
-          }
-          else
-          {
+          //if(count($tests->test) > $maxtests)
+          //{
+          //  for($i = 0; $i <= $maxtests; $i++)
+          //  {
+          //    //echo '1';
+          //    echo '<li><a href="test.php?t=' . $tests->test[$i]->path . '">' . $tests->test[$i]->title . '</a><li>';
+          //  }
+          //}
+          //else
+          //{
             for($i = 0; $i <= count($tests->test); $i++)
             {
               //echo '2';
               echo '<li><a href="test.php?t=' . $tests->test[$i]->path . '">' . $tests->test[$i]->title . '</a><li>';
             }
-          }
+          //}
           ?>
         </ul>
       </div>
