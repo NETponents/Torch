@@ -63,7 +63,7 @@ else
   <input type="hidden" name="q" value="' . $test_curquest . '" />
   <input type="hidden" name="r" value="' . $test_correct . '" />
   <input type="hidden" name="u" value="' . $auth_usr . '" />
-  <input type="text" name="ans" value="Enter answer" />
+  <input type="text" name="ans" />
   <input type="submit" name="submit" value="Next >>" />
   </form>';
 }
