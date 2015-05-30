@@ -10,7 +10,7 @@
     $numquestions = 0;
     for($i = 0; $i <= count($testslist->test); $i++)
       {
-        if($testslist->test[$i]->path = $testpath)
+        if($testslist->test[$i]->path == $testpath)
         {
           $testfullname = $testslist->test[$i]->title;
           $numquestions = $testslist->test[$i]->questions;
