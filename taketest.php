@@ -6,7 +6,7 @@ $test_curquest = $_POST['q'];
 $test_correct = $_POST['r'];
 $auth_usr = $_POST['u'];
 
-$debug = true;
+$debug = false;
 
 $testdata = simplexml_load_file('./secure/test/' . $test_path . '/test.xml');
 
