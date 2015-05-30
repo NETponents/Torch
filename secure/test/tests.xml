@@ -3,5 +3,6 @@
     <title>Sample Test</title>
     <path>stest</path>
     <questions>1</questions>
+    <pass>sample</pass>
   </test>
 </tests>
