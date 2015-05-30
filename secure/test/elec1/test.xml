@@ -16,7 +16,15 @@
     <c>2</c>
   </q>
   <q>
-    <quest>An Arduino runs on which architecture?<br />1. x86<br />2. ARM<br />3. SPARC<br />4. Harvard</quest>
+    <quest>Electric flow is the movement of what?<br />1. Electricity<br />2. Electrons<br />3. Atomic energy<br />4. Magic</quest>
+    <c>2</c>
+  </q>
+  <q>
+    <quest>What protocol is used to COMMUNICATE with embedded electronics?<br />1. JTAG<br />2. SPI<br />3. USB<br />4. COM+</quest>
     <c>4</c>
+  </q>
+  <q>
+    <quest>What protocol is used to DEBUG embedded electronics?<br />1. JTAG<br />2. SPI<br />3. USB<br />4. COM+</quest>
+    <c>1</c>
   </q>
 </qs>
