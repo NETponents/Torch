@@ -26,7 +26,7 @@ if($debug == true)
 if($curquest > 0)
 {
   $prevans = $_GET['a'];
-  if($testdata->q[$curquest - 1]->c == $prevans)
+  if($testdata->q[$test_curquest - 1]->c == $prevans)
   {
     $test_correct = $test_correct . 'r';
   }
