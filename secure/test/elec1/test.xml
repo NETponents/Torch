@@ -4,27 +4,43 @@
     <c>30</c>
   </q>
   <q>
-    <quest>An Arduino runs on which architecture?<br />1. x86<br />2. ARM<br />3. SPARC<br />4. Harvard</quest>
+    <quest>An Arduino runs on which architecture?#1. x86#2. ARM#3. SPARC#4. Harvard</quest>
     <c>4</c>
   </q>
   <q>
-    <quest>What protocol is used to select a target on an electrical bus?<br />1. SPI<br />2. HVL<br />3. IDE<br />4. None, impossible</quest>
+    <quest>What protocol is used to select a target on an electrical bus?#1. SPI#2. HVL#3. IDE#4. None, impossible</quest>
     <c>1</c>
   </q>
   <q>
-    <quest>How big is an Arduino memory chip?<br />1. 4K<br />2. 32K<br />3. 6M<br />4. 2G</quest>
+    <quest>How big is an Arduino memory chip?#1. 4K#2. 32K#3. 6M#4. 2G</quest>
     <c>2</c>
   </q>
   <q>
-    <quest>Electric flow is the movement of what?<br />1. Electricity<br />2. Electrons<br />3. Atomic energy<br />4. Magic</quest>
+    <quest>Electric flow is the movement of what?#1. Electricity#2. Electrons#3. Atomic energy#4. Magic</quest>
     <c>2</c>
   </q>
   <q>
-    <quest>What protocol is used to COMMUNICATE with embedded electronics?<br />1. JTAG<br />2. SPI<br />3. USB<br />4. COM+</quest>
+    <quest>What protocol is used to COMMUNICATE with embedded electronics?#1. JTAG#2. SPI#3. USB#4. COM+</quest>
     <c>4</c>
   </q>
   <q>
-    <quest>What protocol is used to DEBUG embedded electronics?<br />1. JTAG<br />2. SPI<br />3. USB<br />4. COM+</quest>
+    <quest>What protocol is used to DEBUG embedded electronics?#1. JTAG#2. SPI#3. USB#4. COM+</quest>
     <c>1</c>
+  </q>
+  <q>
+    <quest>What electric component is used to store electricity for a QUICK discharge?#1. Resistor#2. Flash Memory#3. Capacitor#4. Batteries</quest>
+    <c>3</c>
+  </q>
+  <q>
+    <quest>What electric component is used to store electricity for a QUICK discharge?#1. Resistor#2. Flash Memory#3. Capacitor#4. Batteries</quest>
+    <c>4</c>
+  </q>
+  <q>
+    <quest>Which item is not an embedded-exclusive processor?#1. BCM2773K#2. AMD G-Series#3. ATMEL megaAVR#4. Intel Atom</quest>
+    <c>4</c>
+  </q>
+  <q>
+    <quest>What language is used to program the Arduino?#1. Assembly#2. Objective-C#3. Swift#4. Bytecode</quest>
+    <c>2</c>
   </q>
 </qs>
