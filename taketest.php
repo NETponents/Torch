@@ -28,7 +28,7 @@ if($test_curquest > 0)
 {
   $prevans = $_GET['a'];
   $g = $test_curquest - 1;
-  if((string)$testdata->q[$g]->c == (string)$prevans)
+  if((string)$testdata->q[(int)$g]->c == (string)$prevans)
   {
     $test_correct = $test_correct . 'r';
   }
@@ -52,7 +52,7 @@ if($test_curquest > $test_numquest)
 else
 {
   echo '<h3>' . $testdata->q[(int)$test_curquest]->quest . '</h3>';
-  echo $testdata->q[$g]->c;
+  //echo $testdata->q[(int)$test_curquest]->c;
   $test_curquest++;
   echo 'Answer: 
   <form method="post" action="./taketest.php">
