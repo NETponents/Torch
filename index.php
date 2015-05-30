@@ -17,7 +17,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
          </button>
-         <a class="navbar-brand" href="/NETponentsWebsite/">Torch Testing Software</a>
+         <a class="navbar-brand" href="/Torch/">Torch Testing Software</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul>
@@ -35,10 +35,11 @@
     </div>
     <div class="row">
       <div class="col-sm-6">
-        <h3>Column 2</h3>
+        <h3>Torch Home</h3>
         <p>Welcome to Torch Testing Software. To begin, click on an available test on the right and follow the instructions on the next page.</p>
       </div>
       <div class="col-sm-6">
+        <h3>Available tests</h3>
         <ul>
           <?php
           $maxtests = 5;
