@@ -18,7 +18,7 @@ for($i = 0; $i <= count($testslist->test); $i++)
     break;
   }
 }
-if($testauthsecret = $auth_secret)
+if($testauthsecret == $auth_secret)
 {
   echo '<p>Click begin to start the test</p>
   <form method="post" action="./taketest.php">
