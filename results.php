@@ -52,7 +52,7 @@
           $q_wrong = 0;
           $q_nulled = 0;
           $q_finalscore = 0;
-          $debug = true;
+          $debug = false;
           if($debug)
           {
             echo $test_correct;
