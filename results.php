@@ -52,6 +52,11 @@
           $q_wrong = 0;
           $q_nulled = 0;
           $q_finalscore = 0;
+          $debug = true;
+          if($debug)
+          {
+            echo $test_correct;
+          }
           foreach($result as $i)
           {
             if($i == 'n')
