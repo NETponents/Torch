@@ -14,12 +14,12 @@ $testdata = simplexml_load_file('./secure/test/' . $test_path . '/test.xml');
 <?php
 if($debug == true)
 {
-  echo $test_path;
-  echo $test_name;
-  echo $test_numquest;
-  echo $test_curquest;
-  echo $test_correct;
-  echo $auth_usr;
+  echo $test_path . '<br />';
+  echo $test_name . '<br />';
+  echo $test_numquest . '<br />';
+  echo $test_curquest . '<br />';
+  echo $test_correct . '<br />';
+  echo $auth_usr . '<br />';
 }
 ?>
 <h1><?php echo $test_name; ?></h1>
