@@ -45,7 +45,7 @@
     <br />
     <h1>User information</h1>
     <hr />
-    <form method="post" action="./question.php">
+    <form method="post" action="./verifytest.php">
       <input type="hidden" name="t" value="<?php echo $testpath; ?>" />
       <input type="hidden" name="n" value="<?php echo $testfullname; ?>" />
       <input type="hidden" name="tq" value="<?php echo $numquestions; ?>" />
