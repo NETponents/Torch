@@ -17,7 +17,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
          </button>
-         <a class="navbar-brand" href="/NETponentsWebsite/">Torch Testing Software</a>
+         <a class="navbar-brand" href="/Torch/">Torch Testing Software</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul>
@@ -75,7 +75,8 @@
           $q_nulled--;
           $q_finalscore = ($q_right / ($q_right + $q_wrong)) * 100;
         ?>
-        <p>Final score: <?php echo $q_finalscore; ?>%</p>
+        <p>Final score: <?php echo round($q_finalscore, 1); ?>%</p>
+        <p>Null credit answers: <?php echo $q_nulled; ?></p>
       </div>
     </div>
     <div class="row">
