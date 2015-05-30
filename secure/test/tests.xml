@@ -2,5 +2,6 @@
   <test>
     <title>Sample Test</title>
     <path>stest</path>
+    <questions>1</questions>
   </test>
 </tests>
