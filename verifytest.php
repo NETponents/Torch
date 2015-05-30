@@ -1,11 +1,11 @@
 <?php
-$test_path = $_GET['t'];
-$test_name = $_GET['n'];
-$test_numquest = $_GET['tq'];
-$test_curquest = $_GET['q'];
-$test_correct = $_GET['r'];
-$auth_usr = $_GET['u'];
-$auth_secret = $_GET['sec'];
+$test_path = $_POST['t'];
+$test_name = $_POST['n'];
+$test_numquest = $_POST['tq'];
+$test_curquest = $_POST['q'];
+$test_correct = $_POST['r'];
+$auth_usr = $_POST['u'];
+$auth_secret = $_POST['sec'];
 
 $testauthsecret = '';
 
