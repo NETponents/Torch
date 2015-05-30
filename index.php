@@ -48,7 +48,7 @@
             for($i = 0; $i <= $maxtests; $i++)
             {
               //echo '1';
-              echo '<li><a href="test.html?t=' . $tests->test[$i]->path . '">' . $tests->test[$i]->title . '</a><li>';
+              echo '<li><a href="test.php?t=' . $tests->test[$i]->path . '">' . $tests->test[$i]->title . '</a><li>';
             }
           }
           else
@@ -56,7 +56,7 @@
             for($i = 0; $i <= count($tests->test); $i++)
             {
               //echo '2';
-              echo '<li><a href="test.html?t=' . $tests->test[$i]->path . '">' . $tests->test[$i]->title . '</a><li>';
+              echo '<li><a href="test.php?t=' . $tests->test[$i]->path . '">' . $tests->test[$i]->title . '</a><li>';
             }
           }
           ?>
