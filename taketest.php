@@ -41,7 +41,6 @@ if(curquest > numquest)
   <input type="hidden" name="t" value="' . $test_path . '" />
   <input type="hidden" name="n" value="' . $test_name . '" />
   <input type="hidden" name="tq" value="' . $test_numquest . '" />
-  <input type="hidden" name="q" value="' . $test_curquest . '" />
   <input type="hidden" name="r" value="' . $test_correct . '" />
   <input type="hidden" name="u" value="' . $auth_usr . '" />
   <input type="submit" name="submit" value="Finish test" />
@@ -49,13 +48,14 @@ if(curquest > numquest)
 }
 else
 {
+  $curquest++;
   echo '<h3>' . $testdata->q[$curquest]->quest . '</h3>';
   echo 'Answer: 
   <form method="post" action="./taketest.php">
   <input type="hidden" name="t" value="' . $test_path . '" />
   <input type="hidden" name="n" value="' . $test_name . '" />
   <input type="hidden" name="tq" value="' . $test_numquest . '" />
-  <input type="hidden" name="q" value="' . $test_curquest + 1 . '" />
+  <input type="hidden" name="q" value="' . $test_curquest . '" />
   <input type="hidden" name="r" value="' . $test_correct . '" />
   <input type="hidden" name="u" value="' . $auth_usr . '" />
   <input type="text" name="a" />
