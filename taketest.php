@@ -18,6 +18,7 @@ if($debug == true)
   echo $test_curquest . '<br />';
   echo $test_correct . '<br />';
   echo $auth_usr . '<br />';
+  echo '<a href="./secure/test/' . $test_path . '/test.xml">Test datafile path</a>';
 }
 ?>
 <h1><?php echo $test_name; ?></h1>
