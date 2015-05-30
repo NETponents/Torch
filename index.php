@@ -39,7 +39,26 @@
         <p>Welcome to Torch Testing Software. To begin, click on an available test on the right and follow the instructions on the next page.</p>
       </div>
       <div class="col-sm-6">
-        
+        <ul>
+          <?php
+          $maxtests = 5;
+          $tests = simplexml_load_file('./secure/test/tests.xml');
+          if(count($tests->test) > $maxtests)
+          {
+            for($i = 0; $i <= $maxtests; $i++)
+            {
+              echo '<li><a href="test.html?t=' . $tests->test[$i]->path . '">' . $tests->test[$i]->title . '</a><li>';
+            }
+          }
+          else
+          {
+            for($i = 0; $i <= count($tests->test); $i++)
+            {
+              echo '<li><a href="test.html?t=' . $tests->test[$i]->path . '">' . $tests->test[$i]->title . '</a><li>';
+            }
+          }
+          ?>
+        </ul>
       </div>
     </div>
     <div class="row">
