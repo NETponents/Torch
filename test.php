@@ -53,8 +53,7 @@
       <input type="hidden" name="r" value="n" />
       Name/ID: <input type="text" name="u" /><br /><br />
       Secure testing code: <input type="password" name="sec"> <br /><br />
-      <input type="submit" name="submit" value="Begin test" />
+      <input type="submit" name="submit" value="Verify" />
     </form>
-    <p>WARNING: Clicking on Begin test will begin the test. Please make sure you have read the testing instructions above and verifying that your browser passes the JavaScript test.</p>
   </body>
 </html>
