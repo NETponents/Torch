@@ -23,9 +23,9 @@ The *<quest>* tag contains the question. If you would like to offer a multiple c
      <c>1</c>
     </q>
     
-The *c* tag contains the correct answer. This may be a number, a letter, a word, or anything you like. Just know that it IS case-sensitive. This means that "a" and "A" are not the same thing.
+The **c** tag contains the correct answer. This may be a number, a letter, a word, or anything you like. Just know that it IS case-sensitive. This means that **a** and **A** are not the same thing.
 
-To make a new question, simply copy a set of *q* tags and it's contents.
+To make a new question, simply copy a set of **q** tags and it's contents.
 
 Once you get that done, go back to *~/secure/test/* and open *tests.xml*. Make a new entry that looks like this. You will need to do this for each test you create.
 
@@ -37,6 +37,8 @@ Once you get that done, go back to *~/secure/test/* and open *tests.xml*. Make a
     </test>
     
 The title should be the title of your exam. The path should be the name of the folder that you saved *test.xml* to in the previous step. Questions should be the number of questions minus one. If you are tech-savy, questions is a ZERO-defined index. Password will be a password that you will be required to enter before the student can begin the exam.
+
+If you would like a complete example of a full-length test, take a look at the **Electronic Hardware Exam I** located in the *elec1* directory.
 
 # Taking a test
 Simply visit your web servers home page. On the right you should see a list of available exams. Click on the exam you wish to take.
