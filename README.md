@@ -1,5 +1,7 @@
 # Torch
 Torch is a lightweight testing platform for teachers. It has a simple one-click deployment script that works on any web server running PHP.
+# About this ReadMe
+This ReadMe is up to date as of the release of the version of Torch you are currently using. For an up-to-date version, visit <http://netponents.github.io/Torch>.
 # Deployment
 Download the latest release from [https://github.com/NETponents/Torch/releases](https://github.com/NETponents/Torch/releases). Unzip the file you download and copy the resulting files to the wwwroot of your web server. After that, you are all set to go.
 # Creating a test
@@ -52,4 +54,4 @@ At the end, a page will display the results. Show this page to your professor. B
 # Contributing
 We will happily accept donations in return for offering this free service. We are just a few programmers who spend our time developing free, open-source software for the benifit of both end-users and other programmers. Visit <http://netponents.github.io/NetponentsWebsite/>.
 
-If you would like to help with code contributions, see the file *CONTRIBUTING*.
+If you would like to help with code contributions, see the file *CONTRIBUTING* in your Torch installation directory.
