@@ -6,7 +6,7 @@
     <pass>sample</pass>
   </test>
   <test>
-    <title>Electronics Equipment Exam I</title>
+    <title>Sample Electronics Equipment Exam I</title>
     <path>elec1</path>
     <questions>14</questions>
     <pass>wire7</pass>
