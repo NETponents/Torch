@@ -48,6 +48,6 @@ The next page will verify your identity and start the exam. Each question will b
 At the end, a page will display the results. Show this page to your professor. Be sure to print out a copy for your records. At this point you may close the browser safely.
 
 # Contributing
-We will happily accept donations in return for offering this free service. We are just a few programmers who spend our time developing free, open-source software for the benifit of both end-users and other programmers.
+We will happily accept donations in return for offering this free service. We are just a few programmers who spend our time developing free, open-source software for the benifit of both end-users and other programmers. Visit <http://netponents.github.io/NetponentsWebsite/>.
 
 If you would like to help with code contributions, see the file *CONTRIBUTING*.
