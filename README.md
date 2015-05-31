@@ -23,9 +23,9 @@ The *<quest>* tag contains the question. If you would like to offer a multiple c
      <c>1</c>
     </q>
     
-The *<c>* tag contains the correct answer. This may be a number, a letter, a word, or anything you like. Just know that it IS case-sensitive. This means that "a" and "A" are not the same thing.
+The *c* tag contains the correct answer. This may be a number, a letter, a word, or anything you like. Just know that it IS case-sensitive. This means that "a" and "A" are not the same thing.
 
-To make a new question, simply copy a set of *<q>* tags and it's contents.
+To make a new question, simply copy a set of *q* tags and it's contents.
 
 Once you get that done, go back to *~/secure/test/* and open *tests.xml*. Make a new entry that looks like this. You will need to do this for each test you create.
 
@@ -46,3 +46,8 @@ On the next page, some instructions will be given. Read through them carefully. 
 The next page will verify your identity and start the exam. Each question will be answered by typing an answer and clicking "Next >>". Note that once you have clicked next, you may not return to that question.
 
 At the end, a page will display the results. Show this page to your professor. Be sure to print out a copy for your records. At this point you may close the browser safely.
+
+# Contributing
+We will happily accept donations in return for offering this free service. We are just a few programmers who spend our time developing free, open-source software for the benifit of both end-users and other programmers.
+
+If you would like to help with code contributions, see the file *CONTRIBUTING*.
