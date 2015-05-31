@@ -68,7 +68,7 @@
     <div class="row">
       <div class="col-sm-12">
         <hr />
-        <p>Copyright 2015 NETponents Software</p>
+        <p>Copyright 2015 NETponents Software. Version: <?php require_once('./src/php/version.php'); ?></p>
       </div>
     </div>
   </body>
