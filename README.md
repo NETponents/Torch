@@ -1,9 +1,9 @@
 # Torch
 Torch is a lightweight testing platform for teachers. It has a simple one-click deployment script that works on any web server running PHP.
 # About this ReadMe
-This ReadMe is up to date as of the release of the version of Torch you are currently using. For an up-to-date version, visit <http://netponents.github.io/Torch>.
+This ReadMe is up to date as of the release of the version of Torch you are currently using. For an up-to-date version, visit <http://netponents.github.io/Torch>. For a more in-depth walkthrough and reference guide, visit the Torch wiki at <http://github.com/NETponents/Torch/wiki>.
 # Deployment
-Download the latest release from [https://github.com/NETponents/Torch/releases](https://github.com/NETponents/Torch/releases). Unzip the file you download and copy the resulting files to the wwwroot of your web server. After that, you are all set to go.
+Download the latest release from [https://github.com/NETponents/Torch/releases](https://github.com/NETponents/Torch/releases). Unzip the file you download and copy the resulting files to the wwwroot of your web server. If you need help with this, contact your server administrator as this process varies depending on your server configuration. After that, you are all set to go.
 # Creating a test
 Make a copy of the folder *~/secure/test/stest*. For this example, we will use *~/secure/test/prog1*. Open up the folder you just copied and open the *test.xml* file. Inside you should see something like this:
 
