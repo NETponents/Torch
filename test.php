@@ -39,9 +39,6 @@
     <hr />
     <h4>JavaScript test</h4>
     <div id="jstest">Test failed</div>
-    <script>
-      document.getElementById("jstest").innerHTML = "Test passed";
-    </script>
     <br />
     <h1>User information</h1>
     <hr />
@@ -53,7 +50,13 @@
       <input type="hidden" name="r" value="n" />
       Name/ID: <input type="text" name="u" /><br /><br />
       Secure testing code: <input type="password" name="sec"> <br /><br />
-      <input type="submit" name="submit" value="Verify" />
+      <div id="jstest2">Uh oh! Your browser doesn't support JavaScript. Try again using a different browser.</div><br />
+      <input type="submit" disabled="true" name="submit" value="Verify" />
     </form>
+    <script>
+      document.getElementById("jstest").innerHTML = "Test passed";
+      document.getElementById("mySubmit").disabled = false;
+      document.getElementById("jstest2").innerHTML = "";
+    </script>
   </body>
 </html>
