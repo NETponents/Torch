@@ -11,4 +11,11 @@
     <questions>14</questions>
     <pass>wire7</pass>
   </test>
+  <test>
+    <title>Sample Draft Test</title>
+    <path>stest</path>
+    <questions>1</questions>
+    <pass>sample</pass>
+    <draft>true</draft>
+  </test>
 </tests>
