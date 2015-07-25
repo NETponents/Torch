@@ -40,6 +40,8 @@ Once you get that done, go back to *~/secure/test/* and open *tests.xml*. Make a
     
 The title should be the title of your exam. The path should be the name of the folder that you saved *test.xml* to in the previous step. Questions should be the number of questions minus one. If you are tech-savy, questions is a ZERO-defined index. Password will be a password that you will be required to enter before the student can begin the exam.
 
+To mark a test as a draft (not visible to students), add `<draft>true</draft>` to the test in *test.xml*.
+
 If you would like a complete example of a full-length test, take a look at the **Electronic Hardware Exam I** located in the *elec1* directory.
 
 # Taking a test
